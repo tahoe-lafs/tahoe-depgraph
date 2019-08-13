@@ -28,7 +28,7 @@ import modulefinder
 import sys
 import tempfile
 
-from twisted.python import _setup, reflect
+from twisted.python import reflect
 
 
 class mymf(modulefinder.ModuleFinder):
@@ -48,10 +48,12 @@ class mymf(modulefinder.ModuleFinder):
             self._last_caller = old_last_caller
 
     def import_module(self, partnam, fqname, parent):
+        if partnam.endswith('_py3'):
+            return None
         r = modulefinder.ModuleFinder.import_module(
             self, partnam, fqname, parent)
         last_caller = self._last_caller
-        if r is not None and 'twisted' in r.__name__:
+        if r is not None and 'allmydata' in r.__name__:
             if last_caller is None or last_caller.__name__ == '__main__':
                 self._depgraph[fqname]
             else:
@@ -82,7 +84,7 @@ def main(target):
     mf = mymf(sys.path[:], 0, [])
 
     moduleNames = []
-    for path, dirnames, filenames in os.walk(os.path.join(target, 'src', 'twisted')):
+    for path, dirnames, filenames in os.walk(os.path.join(target, 'src', 'allmydata')):
         if 'test' in dirnames:
             dirnames.remove('test')
         for filename in filenames:
@@ -105,15 +107,13 @@ def main(target):
         tmpfile.flush()
         mf.run_script(tmpfile.name)
 
-    with open('twisted-deps.json', 'wb') as outfile:
+    with open('tahoe-deps.json', 'wb') as outfile:
         json_dump(mf.as_json(), outfile)
         outfile.write('\n')
 
+    # no port status yet
     port_status = {}
-    for module in mf._depgraph.iterkeys():
-        if module not in _setup.notPortedModules:
-            port_status[module] = 'ported'
-    with open('twisted-ported.json', 'wb') as outfile:
+    with open('tahoe-ported.json', 'wb') as outfile:
         json_dump(port_status, outfile)
         outfile.write('\n')
 
