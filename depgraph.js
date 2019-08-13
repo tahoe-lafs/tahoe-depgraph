@@ -51,7 +51,7 @@ function buildDepGraph(depData) {
 }
 
 
-d3.json('twisted-deps.json', function(error, depData) {
+d3.json('tahoe-deps.json', function(error, depData) {
   var graph = buildDepGraph(depData);
 
   var width;
@@ -402,7 +402,7 @@ d3.json('twisted-deps.json', function(error, depData) {
     });
   });
 
-  d3.json('twisted-ported.json', function(error, portedData) {
+  d3.json('tahoe-ported.json', function(error, portedData) {
     for (var key in  portedData) {
       var status = portedData[key];
       var pkg = graph.pkgs[key];
