@@ -15,6 +15,7 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
+            "allmydata.util.base32": 1,
             "allmydata.util.encodingutil": 1
         },
         "allmydata.check_results": {
@@ -29,9 +30,12 @@
             "allmydata.blacklist": 1,
             "allmydata.control": 1,
             "allmydata.crypto": 1,
+            "allmydata.crypto.ed25519": 1,
+            "allmydata.crypto.rsa": 1,
             "allmydata.crypto.util": 1,
             "allmydata.frontends": 1,
             "allmydata.frontends.ftpd": 1,
+            "allmydata.frontends.magic_folder": 1,
             "allmydata.frontends.sftpd": 1,
             "allmydata.history": 1,
             "allmydata.immutable": 1,
@@ -44,6 +48,7 @@
             "allmydata.stats": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
+            "allmydata.storage_client": 1,
             "allmydata.util": 1,
             "allmydata.util.abbreviate": 1,
             "allmydata.util.encodingutil": 1,
@@ -139,14 +144,12 @@
             "allmydata.magicpath": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.configutil": 1,
             "allmydata.util.deferredutil": 1,
             "allmydata.util.eliotutil": 1,
             "allmydata.util.encodingutil": 1,
             "allmydata.util.fileutil": 1,
             "allmydata.util.progress": 1,
             "allmydata.util.time_format": 1,
-            "allmydata.util.yamlutil": 1,
             "allmydata.watchdog": 1,
             "allmydata.watchdog.inotify": 1,
             "allmydata.windows": 1,
@@ -270,7 +273,6 @@
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.observer": 1,
             "allmydata.util.pipeline": 1
         },
         "allmydata.immutable.literal": {
@@ -303,9 +305,11 @@
             "allmydata.immutable": 1,
             "allmydata.immutable.encode": 1,
             "allmydata.immutable.happiness_upload": 1,
+            "allmydata.immutable.layout": 1,
             "allmydata.interfaces": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
+            "allmydata.uri": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
             "allmydata.util.deferredutil": 1,
@@ -330,7 +334,8 @@
             "allmydata.introducer.interfaces": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.rrefutil": 1
+            "allmydata.util.rrefutil": 1,
+            "allmydata.util.yamlutil": 1
         },
         "allmydata.introducer.common": {
             "allmydata": 1,
@@ -441,7 +446,6 @@
             "allmydata": 1,
             "allmydata.crypto": 1,
             "allmydata.crypto.error": 1,
-            "allmydata.crypto.rsa": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -455,8 +459,10 @@
             "allmydata": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
+            "allmydata.util.configutil": 1,
             "allmydata.util.encodingutil": 1,
             "allmydata.util.fileutil": 1,
+            "allmydata.util.iputil": 1,
             "allmydata.version_checks": 1
         },
         "allmydata.nodemaker": {
@@ -479,7 +485,6 @@
         "allmydata.scripts.admin": {
             "allmydata": 1,
             "allmydata.crypto": 1,
-            "allmydata.crypto.ed25519": 1,
             "allmydata.scripts": 1,
             "allmydata.scripts.common": 1
         },
@@ -516,7 +521,6 @@
             "allmydata": 1,
             "allmydata.scripts": 1,
             "allmydata.scripts.default_nodedir": 1,
-            "allmydata.uri": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
             "allmydata.util.encodingutil": 1
@@ -535,10 +539,7 @@
             "allmydata.scripts.default_nodedir": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.encodingutil": 1,
-            "allmydata.util.i2p_provider": 1,
-            "allmydata.util.iputil": 1,
-            "allmydata.util.tor_provider": 1
+            "allmydata.util.encodingutil": 1
         },
         "allmydata.scripts.debug": {
             "allmydata": 1,
@@ -777,8 +778,7 @@
         "allmydata.storage": {},
         "allmydata.storage.common": {
             "allmydata": 1,
-            "allmydata.util": 1,
-            "allmydata.util.base32": 1
+            "allmydata.util": 1
         },
         "allmydata.storage.crawler": {
             "allmydata": 1,
@@ -1003,6 +1003,7 @@
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
             "allmydata.util": 1,
+            "allmydata.util.abbreviate": 1,
             "allmydata.util.encodingutil": 1,
             "allmydata.util.hashutil": 1,
             "allmydata.util.time_format": 1
@@ -1010,6 +1011,7 @@
         "allmydata.web.directory": {
             "allmydata": 1,
             "allmydata.blacklist": 1,
+            "allmydata.dirnode": 1,
             "allmydata.interfaces": 1,
             "allmydata.monitor": 1,
             "allmydata.uri": 1,
@@ -1134,7 +1136,6 @@
         "allmydata.windows.tahoesvc": {
             "allmydata": 1,
             "allmydata.util": 1,
-            "allmydata.util.pkgresutil": 1,
             "allmydata.web": 1,
             "allmydata.windows": 1
         }
@@ -1374,20 +1375,6 @@
         "allmydata.windows.tahoesvc": 1,
         "argparse": 1,
         "array": 6,
-        "asn1crypto": 5,
-        "asn1crypto._errors": 1,
-        "asn1crypto._inet": 1,
-        "asn1crypto._int": 1,
-        "asn1crypto._iri": 1,
-        "asn1crypto._ordereddict": 1,
-        "asn1crypto._teletex_codec": 1,
-        "asn1crypto._types": 1,
-        "asn1crypto.algos": 1,
-        "asn1crypto.core": 1,
-        "asn1crypto.keys": 1,
-        "asn1crypto.parser": 1,
-        "asn1crypto.util": 1,
-        "asn1crypto.version": 1,
         "ast": 1,
         "atexit": 1,
         "attr": 5,
@@ -1395,7 +1382,7 @@
         "attr._config": 1,
         "attr._funcs": 1,
         "attr._make": 1,
-        "attr._version": 1,
+        "attr._version_info": 1,
         "attr.converters": 1,
         "attr.exceptions": 1,
         "attr.filters": 1,
@@ -1517,6 +1504,7 @@
         "cryptography.__about__": 1,
         "cryptography.exceptions": 1,
         "cryptography.hazmat": 5,
+        "cryptography.hazmat._der": 1,
         "cryptography.hazmat._oid": 1,
         "cryptography.hazmat.backends": 5,
         "cryptography.hazmat.backends.interfaces": 1,
@@ -1630,7 +1618,6 @@
         "email.utils": 1,
         "encodings": 5,
         "encodings.aliases": 1,
-        "encodings.idna": 1,
         "encodings.utf_8": 1,
         "enum": 5,
         "errno": 6,
@@ -2004,7 +1991,6 @@
         "ssl": 1,
         "stat": 1,
         "string": 1,
-        "stringprep": 1,
         "strop": 6,
         "struct": 1,
         "subprocess": 1,
