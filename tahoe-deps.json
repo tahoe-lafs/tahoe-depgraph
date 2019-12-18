@@ -15,7 +15,6 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
-            "allmydata.util.base32": 1,
             "allmydata.util.encodingutil": 1
         },
         "allmydata.check_results": {
@@ -31,6 +30,7 @@
             "allmydata.control": 1,
             "allmydata.crypto": 1,
             "allmydata.crypto.ed25519": 1,
+            "allmydata.crypto.rsa": 1,
             "allmydata.crypto.util": 1,
             "allmydata.frontends": 1,
             "allmydata.frontends.ftpd": 1,
@@ -47,7 +47,6 @@
             "allmydata.stats": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
-            "allmydata.storage_client": 1,
             "allmydata.util": 1,
             "allmydata.util.abbreviate": 1,
             "allmydata.util.encodingutil": 1,
@@ -65,12 +64,10 @@
         "allmydata.control": {
             "allmydata": 1,
             "allmydata.immutable": 1,
-            "allmydata.immutable.upload": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.publish": 1,
-            "allmydata.util": 1,
-            "allmydata.util.mathutil": 1
+            "allmydata.util": 1
         },
         "allmydata.crypto": {},
         "allmydata.crypto.aes": {},
@@ -142,7 +139,6 @@
             "allmydata.immutable.upload": 1,
             "allmydata.interfaces": 1,
             "allmydata.magicfolderdb": 1,
-            "allmydata.magicpath": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
             "allmydata.util.deferredutil": 1,
@@ -274,7 +270,6 @@
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.observer": 1,
             "allmydata.util.pipeline": 1
         },
         "allmydata.immutable.literal": {
@@ -407,12 +402,12 @@
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
-            "allmydata.util": 1
+            "allmydata.util": 1,
+            "allmydata.util.mathutil": 1
         },
         "allmydata.mutable.publish": {
             "allmydata": 1,
             "allmydata.crypto": 1,
-            "allmydata.crypto.rsa": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -831,6 +826,7 @@
             "allmydata.storage.lease": 1,
             "allmydata.storage.mutable": 1,
             "allmydata.util": 1,
+            "allmydata.util.fileutil": 1,
             "allmydata.util.idlib": 1,
             "allmydata.util.time_format": 1
         },
@@ -845,8 +841,10 @@
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
+            "allmydata.util.base32": 1,
             "allmydata.util.connection_status": 1,
             "allmydata.util.hashutil": 1,
+            "allmydata.util.log": 1,
             "allmydata.util.observer": 1,
             "allmydata.util.rrefutil": 1
         },
@@ -903,8 +901,7 @@
             "allmydata": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.fileutil": 1,
-            "allmydata.util.log": 1
+            "allmydata.util.fileutil": 1
         },
         "allmydata.util.fake_inotify": {},
         "allmydata.util.fileutil": {
@@ -1001,6 +998,7 @@
         },
         "allmydata.web.common": {
             "allmydata": 1,
+            "allmydata.blacklist": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -1140,7 +1138,6 @@
         "allmydata.windows.tahoesvc": {
             "allmydata": 1,
             "allmydata.util": 1,
-            "allmydata.util.pkgresutil": 1,
             "allmydata.web": 1,
             "allmydata.windows": 1
         }
@@ -1855,19 +1852,11 @@
         "pbr": 5,
         "pbr.builddoc": 1,
         "pbr.extra_files": 1,
-        "pbr.find_package": 1,
         "pbr.git": 1,
-        "pbr.hooks": 5,
-        "pbr.hooks.backwards": 1,
-        "pbr.hooks.base": 1,
-        "pbr.hooks.commands": 1,
-        "pbr.hooks.files": 1,
-        "pbr.hooks.metadata": 1,
         "pbr.options": 1,
         "pbr.packaging": 1,
         "pbr.pbr_json": 1,
         "pbr.testr_command": 1,
-        "pbr.util": 1,
         "pbr.version": 1,
         "pdb": 1,
         "pickle": 1,
@@ -2300,7 +2289,6 @@
         "twisted.trial.itrial": 1,
         "twisted.trial.reporter": 1,
         "twisted.trial.unittest": 1,
-        "twisted.trial.util": 1,
         "twisted.web": 5,
         "twisted.web._auth": 5,
         "twisted.web._auth.basic": 1,
