@@ -1137,6 +1137,7 @@
         "allmydata.windows.tahoesvc": {
             "allmydata": 1,
             "allmydata.util": 1,
+            "allmydata.util.pkgresutil": 1,
             "allmydata.web": 1,
             "allmydata.windows": 1
         }
