@@ -58,17 +58,16 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
-            "allmydata.util.assertutil": 1
+            "allmydata.util.assertutil": 1,
+            "allmydata.util.mathutil": 1
         },
         "allmydata.control": {
             "allmydata": 1,
             "allmydata.immutable": 1,
-            "allmydata.immutable.upload": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.publish": 1,
-            "allmydata.util": 1,
-            "allmydata.util.mathutil": 1
+            "allmydata.util": 1
         },
         "allmydata.crypto": {},
         "allmydata.crypto.aes": {},
@@ -139,9 +138,11 @@
             "allmydata.immutable": 1,
             "allmydata.immutable.upload": 1,
             "allmydata.interfaces": 1,
+            "allmydata.magicfolderdb": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
             "allmydata.util.deferredutil": 1,
+            "allmydata.util.eliotutil": 1,
             "allmydata.util.encodingutil": 1,
             "allmydata.util.fileutil": 1,
             "allmydata.util.progress": 1,
@@ -827,9 +828,7 @@
             "allmydata.storage.immutable": 1,
             "allmydata.storage.lease": 1,
             "allmydata.storage.mutable": 1,
-            "allmydata.util": 1,
-            "allmydata.util.idlib": 1,
-            "allmydata.util.time_format": 1
+            "allmydata.util": 1
         },
         "allmydata.storage.shares": {
             "allmydata": 1,
@@ -993,7 +992,6 @@
         },
         "allmydata.web.common": {
             "allmydata": 1,
-            "allmydata.blacklist": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -1048,6 +1046,7 @@
         "allmydata.web.introweb": {
             "allmydata": 1,
             "allmydata.util": 1,
+            "allmydata.util.idlib": 1,
             "allmydata.version_checks": 1,
             "allmydata.web": 1,
             "allmydata.web.common": 1
