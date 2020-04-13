@@ -3,7 +3,7 @@ tahoe-depgraph
 ==============
 
 `View the generated graph on github pages.
-<https://habnabit.github.io/tahoe-depgraph/>`_
+<https://tahoe-lafs.github.io/tahoe-depgraph/>`_
 
 A little thing based on `Toby Dickenson's py2depgraph
 <http://www.tarind.com/py2depgraph.py>`_ for determining the dependency tree of
