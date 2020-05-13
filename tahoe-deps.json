@@ -30,6 +30,7 @@
             "allmydata.blacklist": 1,
             "allmydata.control": 1,
             "allmydata.crypto": 1,
+            "allmydata.crypto.ed25519": 1,
             "allmydata.crypto.util": 1,
             "allmydata.frontends": 1,
             "allmydata.frontends.ftpd": 1,
@@ -153,17 +154,16 @@
         "allmydata.hashtree": {
             "allmydata": 1,
             "allmydata.util": 1,
-            "allmydata.util.hashutil": 1
+            "allmydata.util.hashutil": 1,
+            "allmydata.util.mathutil": 1
         },
         "allmydata.history": {},
         "allmydata.immutable": {},
         "allmydata.immutable.checker": {
             "allmydata": 1,
             "allmydata.check_results": 1,
-            "allmydata.codec": 1,
             "allmydata.hashtree": 1,
             "allmydata.immutable": 1,
-            "allmydata.immutable.layout": 1,
             "allmydata.interfaces": 1,
             "allmydata.uri": 1,
             "allmydata.util": 1,
@@ -226,7 +226,8 @@
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
-            "allmydata.util.assertutil": 1
+            "allmydata.util.assertutil": 1,
+            "allmydata.util.happinessutil": 1
         },
         "allmydata.immutable.filenode": {
             "allmydata": 1,
@@ -240,7 +241,6 @@
             "allmydata.immutable.repairer": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
-            "allmydata.util.consumer": 1,
             "allmydata.util.dictutil": 1,
             "allmydata.util.happinessutil": 1
         },
@@ -252,7 +252,6 @@
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.observer": 1,
             "allmydata.util.pipeline": 1
         },
         "allmydata.immutable.literal": {
@@ -272,7 +271,6 @@
         "allmydata.immutable.repairer": {
             "allmydata": 1,
             "allmydata.immutable": 1,
-            "allmydata.immutable.upload": 1,
             "allmydata.interfaces": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
@@ -282,15 +280,19 @@
         "allmydata.immutable.upload": {
             "allmydata": 1,
             "allmydata.crypto": 1,
+            "allmydata.hashtree": 1,
             "allmydata.immutable": 1,
             "allmydata.immutable.encode": 1,
             "allmydata.immutable.happiness_upload": 1,
+            "allmydata.immutable.layout": 1,
             "allmydata.interfaces": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
+            "allmydata.uri": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
             "allmydata.util.deferredutil": 1,
+            "allmydata.util.dictutil": 1,
             "allmydata.util.happinessutil": 1,
             "allmydata.util.hashutil": 1,
             "allmydata.util.rrefutil": 1
@@ -334,7 +336,8 @@
         },
         "allmydata.monitor": {
             "allmydata": 1,
-            "allmydata.util": 1
+            "allmydata.util": 1,
+            "allmydata.util.observer": 1
         },
         "allmydata.mutable": {},
         "allmydata.mutable.checker": {
@@ -363,19 +366,20 @@
             "allmydata.mutable.servermap": 1,
             "allmydata.uri": 1,
             "allmydata.util": 1,
-            "allmydata.util.assertutil": 1
+            "allmydata.util.assertutil": 1,
+            "allmydata.util.consumer": 1
         },
         "allmydata.mutable.layout": {
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
-            "allmydata.util": 1,
-            "allmydata.util.mathutil": 1
+            "allmydata.util": 1
         },
         "allmydata.mutable.publish": {
             "allmydata": 1,
             "allmydata.crypto": 1,
+            "allmydata.crypto.rsa": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -411,7 +415,6 @@
             "allmydata": 1,
             "allmydata.crypto": 1,
             "allmydata.crypto.error": 1,
-            "allmydata.crypto.rsa": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -419,7 +422,6 @@
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
-            "allmydata.util.deferredutil": 1,
             "allmydata.util.dictutil": 1
         },
         "allmydata.node": {
@@ -429,6 +431,7 @@
             "allmydata.util.configutil": 1,
             "allmydata.util.encodingutil": 1,
             "allmydata.util.fileutil": 1,
+            "allmydata.util.iputil": 1,
             "allmydata.version_checks": 1
         },
         "allmydata.nodemaker": {
@@ -451,7 +454,6 @@
         "allmydata.scripts.admin": {
             "allmydata": 1,
             "allmydata.crypto": 1,
-            "allmydata.crypto.ed25519": 1,
             "allmydata.scripts": 1,
             "allmydata.scripts.common": 1
         },
@@ -506,10 +508,7 @@
             "allmydata.scripts.default_nodedir": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.encodingutil": 1,
-            "allmydata.util.i2p_provider": 1,
-            "allmydata.util.iputil": 1,
-            "allmydata.util.tor_provider": 1
+            "allmydata.util.encodingutil": 1
         },
         "allmydata.scripts.debug": {
             "allmydata": 1,
@@ -786,9 +785,7 @@
             "allmydata.storage.immutable": 1,
             "allmydata.storage.lease": 1,
             "allmydata.storage.mutable": 1,
-            "allmydata.util": 1,
-            "allmydata.util.idlib": 1,
-            "allmydata.util.time_format": 1
+            "allmydata.util": 1
         },
         "allmydata.storage.shares": {
             "allmydata": 1,
@@ -852,8 +849,7 @@
             "allmydata": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.fileutil": 1,
-            "allmydata.util.log": 1
+            "allmydata.util.fileutil": 1
         },
         "allmydata.util.fileutil": {
             "allmydata": 1,
@@ -933,10 +929,12 @@
         },
         "allmydata.web.common": {
             "allmydata": 1,
+            "allmydata.blacklist": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
             "allmydata.util": 1,
+            "allmydata.util.abbreviate": 1,
             "allmydata.util.encodingutil": 1,
             "allmydata.util.hashutil": 1,
             "allmydata.util.time_format": 1
@@ -944,6 +942,7 @@
         "allmydata.web.directory": {
             "allmydata": 1,
             "allmydata.blacklist": 1,
+            "allmydata.dirnode": 1,
             "allmydata.interfaces": 1,
             "allmydata.monitor": 1,
             "allmydata.uri": 1,
@@ -985,6 +984,7 @@
         "allmydata.web.introweb": {
             "allmydata": 1,
             "allmydata.util": 1,
+            "allmydata.util.idlib": 1,
             "allmydata.version_checks": 1,
             "allmydata.web": 1,
             "allmydata.web.common": 1
@@ -1039,6 +1039,8 @@
         "allmydata.webish": {
             "allmydata": 1,
             "allmydata.util": 1,
+            "allmydata.util.fileutil": 1,
+            "allmydata.util.log": 1,
             "allmydata.web": 1,
             "allmydata.web.common": 1,
             "allmydata.web.introweb": 1,
@@ -1746,11 +1748,19 @@
         "pbr": 5,
         "pbr.builddoc": 1,
         "pbr.extra_files": 1,
+        "pbr.find_package": 1,
         "pbr.git": 1,
+        "pbr.hooks": 5,
+        "pbr.hooks.backwards": 1,
+        "pbr.hooks.base": 1,
+        "pbr.hooks.commands": 1,
+        "pbr.hooks.files": 1,
+        "pbr.hooks.metadata": 1,
         "pbr.options": 1,
         "pbr.packaging": 1,
         "pbr.pbr_json": 1,
         "pbr.testr_command": 1,
+        "pbr.util": 1,
         "pbr.version": 1,
         "pdb": 1,
         "pickle": 1,
@@ -2176,6 +2186,7 @@
         "twisted.trial.itrial": 1,
         "twisted.trial.reporter": 1,
         "twisted.trial.unittest": 1,
+        "twisted.trial.util": 1,
         "twisted.web": 5,
         "twisted.web._auth": 5,
         "twisted.web._auth.basic": 1,
