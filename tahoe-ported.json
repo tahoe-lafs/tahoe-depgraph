@@ -2,6 +2,8 @@
     "allmydata.test.test_humanreadable": "ported",
     "allmydata.test.test_python3": "ported",
     "allmydata.util._python3": "ported",
+    "allmydata.util.assertutil": "ported",
     "allmydata.util.humanreadable": "ported",
+    "allmydata.util.mathutil": "ported",
     "allmydata.util.namespace": "ported"
 }
