@@ -1,9 +1,12 @@
 {
+    "allmydata.test.test_deferredutil": "ported",
     "allmydata.test.test_humanreadable": "ported",
     "allmydata.test.test_python3": "ported",
     "allmydata.util._python3": "ported",
     "allmydata.util.assertutil": "ported",
+    "allmydata.util.deferredutil": "ported",
     "allmydata.util.humanreadable": "ported",
     "allmydata.util.mathutil": "ported",
-    "allmydata.util.namespace": "ported"
+    "allmydata.util.namespace": "ported",
+    "allmydata.util.pollmixin": "ported"
 }
