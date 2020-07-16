@@ -29,7 +29,6 @@
             "allmydata.blacklist": 1,
             "allmydata.control": 1,
             "allmydata.crypto": 1,
-            "allmydata.crypto.ed25519": 1,
             "allmydata.crypto.util": 1,
             "allmydata.frontends": 1,
             "allmydata.frontends.ftpd": 1,
@@ -45,7 +44,6 @@
             "allmydata.stats": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
-            "allmydata.storage_client": 1,
             "allmydata.util": 1,
             "allmydata.util.abbreviate": 1,
             "allmydata.util.encodingutil": 1,
@@ -58,8 +56,7 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
-            "allmydata.util.assertutil": 1,
-            "allmydata.util.mathutil": 1
+            "allmydata.util.assertutil": 1
         },
         "allmydata.control": {
             "allmydata": 1,
@@ -161,6 +158,7 @@
         "allmydata.immutable.checker": {
             "allmydata": 1,
             "allmydata.check_results": 1,
+            "allmydata.codec": 1,
             "allmydata.hashtree": 1,
             "allmydata.immutable": 1,
             "allmydata.immutable.layout": 1,
@@ -370,7 +368,8 @@
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
-            "allmydata.util": 1
+            "allmydata.util": 1,
+            "allmydata.util.mathutil": 1
         },
         "allmydata.mutable.publish": {
             "allmydata": 1,
@@ -451,6 +450,7 @@
         "allmydata.scripts.admin": {
             "allmydata": 1,
             "allmydata.crypto": 1,
+            "allmydata.crypto.ed25519": 1,
             "allmydata.scripts": 1,
             "allmydata.scripts.common": 1
         },
@@ -505,7 +505,9 @@
             "allmydata.scripts.default_nodedir": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.encodingutil": 1
+            "allmydata.util.encodingutil": 1,
+            "allmydata.util.i2p_provider": 1,
+            "allmydata.util.tor_provider": 1
         },
         "allmydata.scripts.debug": {
             "allmydata": 1,
@@ -1821,11 +1823,19 @@
         "pbr": 5,
         "pbr.builddoc": 1,
         "pbr.extra_files": 1,
+        "pbr.find_package": 1,
         "pbr.git": 1,
+        "pbr.hooks": 5,
+        "pbr.hooks.backwards": 1,
+        "pbr.hooks.base": 1,
+        "pbr.hooks.commands": 1,
+        "pbr.hooks.files": 1,
+        "pbr.hooks.metadata": 1,
         "pbr.options": 1,
         "pbr.packaging": 1,
         "pbr.pbr_json": 1,
         "pbr.testr_command": 1,
+        "pbr.util": 1,
         "pbr.version": 1,
         "pdb": 1,
         "pickle": 1,
@@ -2257,6 +2267,7 @@
         "twisted.trial.itrial": 1,
         "twisted.trial.reporter": 1,
         "twisted.trial.unittest": 1,
+        "twisted.trial.util": 1,
         "twisted.web": 5,
         "twisted.web._auth": 5,
         "twisted.web._auth.basic": 1,
