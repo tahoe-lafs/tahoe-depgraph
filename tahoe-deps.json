@@ -29,7 +29,6 @@
             "allmydata.blacklist": 1,
             "allmydata.control": 1,
             "allmydata.crypto": 1,
-            "allmydata.crypto.rsa": 1,
             "allmydata.crypto.util": 1,
             "allmydata.frontends": 1,
             "allmydata.frontends.ftpd": 1,
@@ -376,6 +375,7 @@
         "allmydata.mutable.publish": {
             "allmydata": 1,
             "allmydata.crypto": 1,
+            "allmydata.crypto.rsa": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
