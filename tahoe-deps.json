@@ -44,7 +44,6 @@
             "allmydata.stats": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
-            "allmydata.storage_client": 1,
             "allmydata.util": 1,
             "allmydata.util.abbreviate": 1,
             "allmydata.util.encodingutil": 1,
@@ -62,6 +61,7 @@
         "allmydata.control": {
             "allmydata": 1,
             "allmydata.immutable": 1,
+            "allmydata.immutable.upload": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.publish": 1,
@@ -152,7 +152,9 @@
         "allmydata.hashtree": {
             "allmydata": 1,
             "allmydata.util": 1,
-            "allmydata.util.hashutil": 1
+            "allmydata.util.base32": 1,
+            "allmydata.util.hashutil": 1,
+            "allmydata.util.mathutil": 1
         },
         "allmydata.history": {},
         "allmydata.immutable": {},
@@ -249,7 +251,6 @@
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.observer": 1,
             "allmydata.util.pipeline": 1
         },
         "allmydata.immutable.literal": {
@@ -278,13 +279,14 @@
         "allmydata.immutable.upload": {
             "allmydata": 1,
             "allmydata.crypto": 1,
-            "allmydata.hashtree": 1,
             "allmydata.immutable": 1,
             "allmydata.immutable.encode": 1,
             "allmydata.immutable.happiness_upload": 1,
+            "allmydata.immutable.layout": 1,
             "allmydata.interfaces": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
+            "allmydata.uri": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
             "allmydata.util.deferredutil": 1,
@@ -369,8 +371,7 @@
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
-            "allmydata.util": 1,
-            "allmydata.util.mathutil": 1
+            "allmydata.util": 1
         },
         "allmydata.mutable.publish": {
             "allmydata": 1,
@@ -486,7 +487,6 @@
             "allmydata": 1,
             "allmydata.scripts": 1,
             "allmydata.scripts.default_nodedir": 1,
-            "allmydata.uri": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
             "allmydata.util.encodingutil": 1
@@ -735,8 +735,7 @@
         "allmydata.storage": {},
         "allmydata.storage.common": {
             "allmydata": 1,
-            "allmydata.util": 1,
-            "allmydata.util.base32": 1
+            "allmydata.util": 1
         },
         "allmydata.storage.crawler": {
             "allmydata": 1,
@@ -803,6 +802,7 @@
             "allmydata.util.assertutil": 1,
             "allmydata.util.connection_status": 1,
             "allmydata.util.hashutil": 1,
+            "allmydata.util.log": 1,
             "allmydata.util.observer": 1,
             "allmydata.util.rrefutil": 1
         },
@@ -855,8 +855,7 @@
             "allmydata": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.fileutil": 1,
-            "allmydata.util.log": 1
+            "allmydata.util.fileutil": 1
         },
         "allmydata.util.fileutil": {
             "allmydata": 1,
@@ -948,7 +947,6 @@
         "allmydata.web.directory": {
             "allmydata": 1,
             "allmydata.blacklist": 1,
-            "allmydata.dirnode": 1,
             "allmydata.interfaces": 1,
             "allmydata.monitor": 1,
             "allmydata.uri": 1,
@@ -1820,6 +1818,15 @@
         "optparse": 1,
         "os": 1,
         "os2emxpath": 1,
+        "past": 5,
+        "past.builtins": 5,
+        "past.builtins.misc": 1,
+        "past.builtins.noniterators": 1,
+        "past.types": 5,
+        "past.types.basestring": 1,
+        "past.types.olddict": 1,
+        "past.types.oldstr": 1,
+        "past.utils": 5,
         "pbr": 5,
         "pbr.builddoc": 1,
         "pbr.extra_files": 1,

@@ -1,9 +1,13 @@
 {
+    "allmydata.test.test_base32": "ported",
+    "allmydata.test.test_base62": "ported",
     "allmydata.test.test_deferredutil": "ported",
     "allmydata.test.test_humanreadable": "ported",
     "allmydata.test.test_python3": "ported",
     "allmydata.util._python3": "ported",
     "allmydata.util.assertutil": "ported",
+    "allmydata.util.base32": "ported",
+    "allmydata.util.base62": "ported",
     "allmydata.util.deferredutil": "ported",
     "allmydata.util.humanreadable": "ported",
     "allmydata.util.mathutil": "ported",
