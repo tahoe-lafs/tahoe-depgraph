@@ -7,6 +7,8 @@
     "allmydata.test.test_hashutil": "ported",
     "allmydata.test.test_humanreadable": "ported",
     "allmydata.test.test_netstring": "ported",
+    "allmydata.test.test_observer": "ported",
+    "allmydata.test.test_pipeline": "ported",
     "allmydata.test.test_python3": "ported",
     "allmydata.util._python3": "ported",
     "allmydata.util.assertutil": "ported",
@@ -18,5 +20,7 @@
     "allmydata.util.mathutil": "ported",
     "allmydata.util.namespace": "ported",
     "allmydata.util.netstring": "ported",
+    "allmydata.util.observer": "ported",
+    "allmydata.util.pipeline": "ported",
     "allmydata.util.pollmixin": "ported"
 }
