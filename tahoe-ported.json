@@ -1,7 +1,9 @@
 {
+    "allmydata.hashtree": "ported",
     "allmydata.test.test_base32": "ported",
     "allmydata.test.test_base62": "ported",
     "allmydata.test.test_deferredutil": "ported",
+    "allmydata.test.test_hashtree": "ported",
     "allmydata.test.test_hashutil": "ported",
     "allmydata.test.test_humanreadable": "ported",
     "allmydata.test.test_netstring": "ported",
