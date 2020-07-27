@@ -12,6 +12,7 @@
     "allmydata.test.test_observer": "ported",
     "allmydata.test.test_pipeline": "ported",
     "allmydata.test.test_python3": "ported",
+    "allmydata.test.test_spans": "ported",
     "allmydata.test.test_time_format": "ported",
     "allmydata.util._python3": "ported",
     "allmydata.util.abbreviate": "ported",
@@ -27,5 +28,6 @@
     "allmydata.util.observer": "ported",
     "allmydata.util.pipeline": "ported",
     "allmydata.util.pollmixin": "ported",
+    "allmydata.util.spans": "ported",
     "allmydata.util.time_format": "ported"
 }
