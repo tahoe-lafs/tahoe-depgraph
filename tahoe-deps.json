@@ -57,11 +57,13 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
-            "allmydata.util.assertutil": 1
+            "allmydata.util.assertutil": 1,
+            "allmydata.util.mathutil": 1
         },
         "allmydata.control": {
             "allmydata": 1,
             "allmydata.immutable": 1,
+            "allmydata.immutable.upload": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.publish": 1,
@@ -152,6 +154,7 @@
         "allmydata.hashtree": {
             "allmydata": 1,
             "allmydata.util": 1,
+            "allmydata.util.base32": 1,
             "allmydata.util.hashutil": 1
         },
         "allmydata.history": {},
@@ -367,8 +370,7 @@
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
-            "allmydata.util": 1,
-            "allmydata.util.mathutil": 1
+            "allmydata.util": 1
         },
         "allmydata.mutable.publish": {
             "allmydata": 1,
@@ -733,8 +735,7 @@
         "allmydata.storage": {},
         "allmydata.storage.common": {
             "allmydata": 1,
-            "allmydata.util": 1,
-            "allmydata.util.base32": 1
+            "allmydata.util": 1
         },
         "allmydata.storage.crawler": {
             "allmydata": 1,
@@ -880,15 +881,10 @@
         "allmydata.util.iputil": {
             "allmydata.util.gcutil": 1
         },
-        "allmydata.util.log": {
-            "allmydata": 1,
-            "allmydata.util": 1,
-            "allmydata.util.nummedobj": 1
-        },
+        "allmydata.util.log": {},
         "allmydata.util.mathutil": {},
         "allmydata.util.namespace": {},
         "allmydata.util.netstring": {},
-        "allmydata.util.nummedobj": {},
         "allmydata.util.observer": {},
         "allmydata.util.pipeline": {
             "allmydata": 1,
@@ -944,7 +940,6 @@
         "allmydata.web.directory": {
             "allmydata": 1,
             "allmydata.blacklist": 1,
-            "allmydata.dirnode": 1,
             "allmydata.interfaces": 1,
             "allmydata.monitor": 1,
             "allmydata.uri": 1,
@@ -1247,7 +1242,6 @@
         "allmydata.util.mathutil": 1,
         "allmydata.util.namespace": 1,
         "allmydata.util.netstring": 1,
-        "allmydata.util.nummedobj": 1,
         "allmydata.util.observer": 1,
         "allmydata.util.pipeline": 1,
         "allmydata.util.pollmixin": 1,
@@ -1909,9 +1903,11 @@
         "pyutil": 5,
         "pyutil._version": 1,
         "pyutil.assertutil": 1,
+        "pyutil.dictutil": 1,
         "pyutil.fileutil": 1,
         "pyutil.humanreadable": 1,
         "pyutil.mathutil": 1,
+        "pyutil.nummedobj": 1,
         "queue": 5,
         "quopri": 1,
         "random": 1,
