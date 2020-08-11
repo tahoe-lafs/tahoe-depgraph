@@ -15,7 +15,6 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
-            "allmydata.util.base32": 1,
             "allmydata.util.encodingutil": 1
         },
         "allmydata.check_results": {
@@ -60,8 +59,7 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
-            "allmydata.util.assertutil": 1,
-            "allmydata.util.mathutil": 1
+            "allmydata.util.assertutil": 1
         },
         "allmydata.control": {
             "allmydata": 1,
@@ -374,7 +372,8 @@
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
-            "allmydata.util": 1
+            "allmydata.util": 1,
+            "allmydata.util.mathutil": 1
         },
         "allmydata.mutable.publish": {
             "allmydata": 1,
@@ -431,6 +430,7 @@
             "allmydata.util.encodingutil": 1,
             "allmydata.util.fileutil": 1,
             "allmydata.util.iputil": 1,
+            "allmydata.util.log": 1,
             "allmydata.version_checks": 1
         },
         "allmydata.nodemaker": {
@@ -853,8 +853,7 @@
             "allmydata": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.fileutil": 1,
-            "allmydata.util.log": 1
+            "allmydata.util.fileutil": 1
         },
         "allmydata.util.fileutil": {
             "allmydata": 1,
@@ -928,6 +927,7 @@
         },
         "allmydata.web.common": {
             "allmydata": 1,
+            "allmydata.blacklist": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -1705,7 +1705,6 @@
         "http.cookiejar": 1,
         "httplib": 1,
         "hyperlink": 5,
-        "hyperlink._socket": 1,
         "hyperlink._url": 1,
         "idna": 5,
         "idna.core": 1,
@@ -2318,7 +2317,6 @@
         "txtorcon.util": 1,
         "txtorcon.web": 1,
         "types": 1,
-        "typing": 1,
         "unicodedata": 6,
         "unittest": 5,
         "unittest.case": 1,
