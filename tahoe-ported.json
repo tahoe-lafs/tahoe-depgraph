@@ -40,6 +40,7 @@
     "allmydata.util.encodingutil": "ported",
     "allmydata.util.fileutil": "ported",
     "allmydata.util.gcutil": "ported",
+    "allmydata.util.happinessutil": "ported",
     "allmydata.util.hashutil": "ported",
     "allmydata.util.humanreadable": "ported",
     "allmydata.util.iputil": "ported",
