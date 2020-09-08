@@ -37,6 +37,7 @@
     "allmydata.test.test_python3": "ported",
     "allmydata.test.test_spans": "ported",
     "allmydata.test.test_statistics": "ported",
+    "allmydata.test.test_storage": "ported",
     "allmydata.test.test_storage_web": "ported",
     "allmydata.test.test_time_format": "ported",
     "allmydata.test.test_uri": "ported",
