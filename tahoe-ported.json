@@ -13,6 +13,7 @@
     "allmydata.storage.common": "ported",
     "allmydata.storage.crawler": "ported",
     "allmydata.storage.expirer": "ported",
+    "allmydata.storage.immutable": "ported",
     "allmydata.storage.lease": "ported",
     "allmydata.storage.mutable": "ported",
     "allmydata.storage.shares": "ported",
