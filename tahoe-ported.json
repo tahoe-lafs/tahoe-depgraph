@@ -49,6 +49,7 @@
     "allmydata.test.test_storage": "ported",
     "allmydata.test.test_storage_web": "ported",
     "allmydata.test.test_time_format": "ported",
+    "allmydata.test.test_upload": "ported",
     "allmydata.test.test_uri": "ported",
     "allmydata.test.test_util": "ported",
     "allmydata.test.test_version": "ported",
