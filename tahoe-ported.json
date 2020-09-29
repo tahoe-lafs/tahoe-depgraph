@@ -9,6 +9,7 @@
     "allmydata.hashtree": "ported",
     "allmydata.immutable.happiness_upload": "ported",
     "allmydata.interfaces": "ported",
+    "allmydata.introducer.interfaces": "ported",
     "allmydata.monitor": "ported",
     "allmydata.storage.common": "ported",
     "allmydata.storage.crawler": "ported",
