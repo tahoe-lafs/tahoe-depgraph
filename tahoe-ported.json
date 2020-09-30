@@ -8,6 +8,7 @@
     "allmydata.crypto.util": "ported",
     "allmydata.hashtree": "ported",
     "allmydata.immutable.happiness_upload": "ported",
+    "allmydata.immutable.literal": "ported",
     "allmydata.interfaces": "ported",
     "allmydata.introducer.interfaces": "ported",
     "allmydata.monitor": "ported",
