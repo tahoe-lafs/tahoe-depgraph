@@ -13,6 +13,7 @@
     "allmydata.immutable.downloader.finder": "ported",
     "allmydata.immutable.downloader.node": "ported",
     "allmydata.immutable.downloader.segmentation": "ported",
+    "allmydata.immutable.downloader.share": "ported",
     "allmydata.immutable.downloader.status": "ported",
     "allmydata.immutable.happiness_upload": "ported",
     "allmydata.immutable.literal": "ported",
