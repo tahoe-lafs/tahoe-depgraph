@@ -28,7 +28,6 @@
     "allmydata.storage.mutable": "ported",
     "allmydata.storage.server": "ported",
     "allmydata.storage.shares": "ported",
-    "allmydata.test.common_py3": "ported",
     "allmydata.test.no_network": "ported",
     "allmydata.test.test_abbreviate": "ported",
     "allmydata.test.test_base32": "ported",
