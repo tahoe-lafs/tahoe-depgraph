@@ -15,6 +15,7 @@
     "allmydata.immutable.downloader.segmentation": "ported",
     "allmydata.immutable.downloader.share": "ported",
     "allmydata.immutable.downloader.status": "ported",
+    "allmydata.immutable.encode": "ported",
     "allmydata.immutable.happiness_upload": "ported",
     "allmydata.immutable.literal": "ported",
     "allmydata.interfaces": "ported",
