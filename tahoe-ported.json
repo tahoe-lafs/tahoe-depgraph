@@ -1,4 +1,5 @@
 {
+    "allmydata._monkeypatch": "ported",
     "allmydata.codec": "ported",
     "allmydata.crypto": "ported",
     "allmydata.crypto.aes": "ported",
