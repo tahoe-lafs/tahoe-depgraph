@@ -284,6 +284,7 @@
             "allmydata.immutable": 1,
             "allmydata.immutable.encode": 1,
             "allmydata.immutable.happiness_upload": 1,
+            "allmydata.immutable.layout": 1,
             "allmydata.interfaces": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
@@ -419,6 +420,7 @@
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
+            "allmydata.util.deferredutil": 1,
             "allmydata.util.dictutil": 1
         },
         "allmydata.node": {
@@ -930,7 +932,6 @@
         },
         "allmydata.web.common": {
             "allmydata": 1,
-            "allmydata.blacklist": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -942,6 +943,7 @@
         "allmydata.web.directory": {
             "allmydata": 1,
             "allmydata.blacklist": 1,
+            "allmydata.dirnode": 1,
             "allmydata.interfaces": 1,
             "allmydata.monitor": 1,
             "allmydata.uri": 1,
