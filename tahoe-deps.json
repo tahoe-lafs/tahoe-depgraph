@@ -63,10 +63,12 @@
         "allmydata.control": {
             "allmydata": 1,
             "allmydata.immutable": 1,
+            "allmydata.immutable.upload": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.publish": 1,
-            "allmydata.util": 1
+            "allmydata.util": 1,
+            "allmydata.util.mathutil": 1
         },
         "allmydata.crypto": {},
         "allmydata.crypto.aes": {},
@@ -153,6 +155,7 @@
         "allmydata.hashtree": {
             "allmydata": 1,
             "allmydata.util": 1,
+            "allmydata.util.base32": 1,
             "allmydata.util.hashutil": 1
         },
         "allmydata.history": {},
@@ -239,6 +242,7 @@
             "allmydata.immutable.repairer": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
+            "allmydata.util.consumer": 1,
             "allmydata.util.dictutil": 1,
             "allmydata.util.happinessutil": 1
         },
@@ -283,9 +287,11 @@
             "allmydata.immutable": 1,
             "allmydata.immutable.encode": 1,
             "allmydata.immutable.happiness_upload": 1,
+            "allmydata.immutable.layout": 1,
             "allmydata.interfaces": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
+            "allmydata.uri": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
             "allmydata.util.deferredutil": 1,
@@ -362,16 +368,14 @@
             "allmydata.mutable.servermap": 1,
             "allmydata.uri": 1,
             "allmydata.util": 1,
-            "allmydata.util.assertutil": 1,
-            "allmydata.util.consumer": 1
+            "allmydata.util.assertutil": 1
         },
         "allmydata.mutable.layout": {
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
-            "allmydata.util": 1,
-            "allmydata.util.mathutil": 1
+            "allmydata.util": 1
         },
         "allmydata.mutable.publish": {
             "allmydata": 1,
@@ -428,6 +432,8 @@
             "allmydata.util.configutil": 1,
             "allmydata.util.encodingutil": 1,
             "allmydata.util.fileutil": 1,
+            "allmydata.util.iputil": 1,
+            "allmydata.util.log": 1,
             "allmydata.version_checks": 1
         },
         "allmydata.nodemaker": {
@@ -487,7 +493,6 @@
             "allmydata": 1,
             "allmydata.scripts": 1,
             "allmydata.scripts.default_nodedir": 1,
-            "allmydata.uri": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
             "allmydata.util.encodingutil": 1
@@ -508,7 +513,6 @@
             "allmydata.util.assertutil": 1,
             "allmydata.util.encodingutil": 1,
             "allmydata.util.i2p_provider": 1,
-            "allmydata.util.iputil": 1,
             "allmydata.util.tor_provider": 1
         },
         "allmydata.scripts.debug": {
@@ -736,8 +740,7 @@
         "allmydata.storage": {},
         "allmydata.storage.common": {
             "allmydata": 1,
-            "allmydata.util": 1,
-            "allmydata.util.base32": 1
+            "allmydata.util": 1
         },
         "allmydata.storage.crawler": {
             "allmydata": 1,
@@ -856,8 +859,7 @@
             "allmydata": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.fileutil": 1,
-            "allmydata.util.log": 1
+            "allmydata.util.fileutil": 1
         },
         "allmydata.util.fileutil": {
             "allmydata": 1,
@@ -932,19 +934,16 @@
         },
         "allmydata.web.common": {
             "allmydata": 1,
-            "allmydata.blacklist": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
             "allmydata.util": 1,
             "allmydata.util.encodingutil": 1,
-            "allmydata.util.hashutil": 1,
             "allmydata.util.time_format": 1
         },
         "allmydata.web.directory": {
             "allmydata": 1,
             "allmydata.blacklist": 1,
-            "allmydata.dirnode": 1,
             "allmydata.interfaces": 1,
             "allmydata.monitor": 1,
             "allmydata.uri": 1,
