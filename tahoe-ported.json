@@ -21,6 +21,7 @@
     "allmydata.immutable.happiness_upload": "ported",
     "allmydata.immutable.layout": "ported",
     "allmydata.immutable.literal": "ported",
+    "allmydata.immutable.offloaded": "ported",
     "allmydata.immutable.upload": "ported",
     "allmydata.interfaces": "ported",
     "allmydata.introducer.interfaces": "ported",
