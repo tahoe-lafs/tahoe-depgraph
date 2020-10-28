@@ -65,6 +65,7 @@
     "allmydata.test.test_monitor": "ported",
     "allmydata.test.test_netstring": "ported",
     "allmydata.test.test_no_network": "ported",
+    "allmydata.test.test_node": "ported",
     "allmydata.test.test_observer": "ported",
     "allmydata.test.test_pipeline": "ported",
     "allmydata.test.test_python3": "ported",
