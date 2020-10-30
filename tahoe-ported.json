@@ -1,4 +1,6 @@
 {
+    "allmydata.__main__": "ported",
+    "allmydata._auto_deps": "ported",
     "allmydata._monkeypatch": "ported",
     "allmydata.codec": "ported",
     "allmydata.crypto": "ported",
