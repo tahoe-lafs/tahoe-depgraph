@@ -28,6 +28,7 @@
     "allmydata.interfaces": "ported",
     "allmydata.introducer.interfaces": "ported",
     "allmydata.monitor": "ported",
+    "allmydata.node": "ported",
     "allmydata.storage.common": "ported",
     "allmydata.storage.crawler": "ported",
     "allmydata.storage.expirer": "ported",
