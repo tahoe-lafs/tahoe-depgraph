@@ -103,7 +103,6 @@
     "allmydata.test.test_upload": "ported",
     "allmydata.test.test_uri": "ported",
     "allmydata.test.test_util": "ported",
-    "allmydata.test.test_version": "ported",
     "allmydata.uri": "ported",
     "allmydata.util._python3": "ported",
     "allmydata.util.abbreviate": "ported",
