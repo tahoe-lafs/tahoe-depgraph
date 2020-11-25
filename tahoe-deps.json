@@ -17,6 +17,7 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
+            "allmydata.util.base32": 1,
             "allmydata.util.encodingutil": 1
         },
         "allmydata.check_results": {
@@ -47,6 +48,7 @@
             "allmydata.stats": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
+            "allmydata.storage_client": 1,
             "allmydata.util": 1,
             "allmydata.util.abbreviate": 1,
             "allmydata.util.encodingutil": 1,
@@ -64,7 +66,6 @@
         "allmydata.control": {
             "allmydata": 1,
             "allmydata.immutable": 1,
-            "allmydata.immutable.upload": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.publish": 1,
@@ -155,9 +156,7 @@
         "allmydata.hashtree": {
             "allmydata": 1,
             "allmydata.util": 1,
-            "allmydata.util.base32": 1,
-            "allmydata.util.hashutil": 1,
-            "allmydata.util.mathutil": 1
+            "allmydata.util.hashutil": 1
         },
         "allmydata.history": {},
         "allmydata.immutable": {},
@@ -374,12 +373,14 @@
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
-            "allmydata.util": 1
+            "allmydata.util": 1,
+            "allmydata.util.mathutil": 1
         },
         "allmydata.mutable.publish": {
             "allmydata": 1,
             "allmydata.codec": 1,
             "allmydata.crypto": 1,
+            "allmydata.hashtree": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
