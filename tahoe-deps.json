@@ -17,7 +17,6 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
-            "allmydata.util.base32": 1,
             "allmydata.util.encodingutil": 1
         },
         "allmydata.check_results": {
@@ -32,7 +31,6 @@
             "allmydata.blacklist": 1,
             "allmydata.control": 1,
             "allmydata.crypto": 1,
-            "allmydata.crypto.ed25519": 1,
             "allmydata.crypto.util": 1,
             "allmydata.frontends": 1,
             "allmydata.frontends.ftpd": 1,
@@ -48,7 +46,6 @@
             "allmydata.stats": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
-            "allmydata.storage_client": 1,
             "allmydata.util": 1,
             "allmydata.util.abbreviate": 1,
             "allmydata.util.encodingutil": 1,
@@ -156,15 +153,19 @@
         "allmydata.hashtree": {
             "allmydata": 1,
             "allmydata.util": 1,
-            "allmydata.util.hashutil": 1
+            "allmydata.util.base32": 1,
+            "allmydata.util.hashutil": 1,
+            "allmydata.util.mathutil": 1
         },
         "allmydata.history": {},
         "allmydata.immutable": {},
         "allmydata.immutable.checker": {
             "allmydata": 1,
             "allmydata.check_results": 1,
+            "allmydata.codec": 1,
             "allmydata.hashtree": 1,
             "allmydata.immutable": 1,
+            "allmydata.immutable.layout": 1,
             "allmydata.interfaces": 1,
             "allmydata.uri": 1,
             "allmydata.util": 1,
@@ -241,6 +242,7 @@
             "allmydata.immutable.repairer": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
+            "allmydata.util.consumer": 1,
             "allmydata.util.dictutil": 1,
             "allmydata.util.happinessutil": 1
         },
@@ -271,6 +273,7 @@
         "allmydata.immutable.repairer": {
             "allmydata": 1,
             "allmydata.immutable": 1,
+            "allmydata.immutable.upload": 1,
             "allmydata.interfaces": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
@@ -283,7 +286,6 @@
             "allmydata.immutable": 1,
             "allmydata.immutable.encode": 1,
             "allmydata.immutable.happiness_upload": 1,
-            "allmydata.immutable.layout": 1,
             "allmydata.interfaces": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
@@ -352,7 +354,6 @@
         "allmydata.mutable.filenode": {
             "allmydata": 1,
             "allmydata.crypto": 1,
-            "allmydata.crypto.rsa": 1,
             "allmydata.interfaces": 1,
             "allmydata.monitor": 1,
             "allmydata.mutable": 1,
@@ -364,23 +365,18 @@
             "allmydata.mutable.servermap": 1,
             "allmydata.uri": 1,
             "allmydata.util": 1,
-            "allmydata.util.assertutil": 1,
-            "allmydata.util.consumer": 1,
-            "allmydata.util.deferredutil": 1
+            "allmydata.util.assertutil": 1
         },
         "allmydata.mutable.layout": {
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
-            "allmydata.util": 1,
-            "allmydata.util.mathutil": 1
+            "allmydata.util": 1
         },
         "allmydata.mutable.publish": {
             "allmydata": 1,
-            "allmydata.codec": 1,
             "allmydata.crypto": 1,
-            "allmydata.hashtree": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -416,6 +412,7 @@
             "allmydata": 1,
             "allmydata.crypto": 1,
             "allmydata.crypto.error": 1,
+            "allmydata.crypto.rsa": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -423,6 +420,7 @@
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
+            "allmydata.util.deferredutil": 1,
             "allmydata.util.dictutil": 1
         },
         "allmydata.node": {
@@ -453,6 +451,7 @@
         "allmydata.scripts.admin": {
             "allmydata": 1,
             "allmydata.crypto": 1,
+            "allmydata.crypto.ed25519": 1,
             "allmydata.scripts": 1,
             "allmydata.scripts.common": 1
         },
@@ -507,7 +506,9 @@
             "allmydata.scripts.default_nodedir": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.encodingutil": 1
+            "allmydata.util.encodingutil": 1,
+            "allmydata.util.i2p_provider": 1,
+            "allmydata.util.tor_provider": 1
         },
         "allmydata.scripts.debug": {
             "allmydata": 1,
@@ -784,7 +785,9 @@
             "allmydata.storage.lease": 1,
             "allmydata.storage.mutable": 1,
             "allmydata.util": 1,
+            "allmydata.util.fileutil": 1,
             "allmydata.util.idlib": 1,
+            "allmydata.util.log": 1,
             "allmydata.util.time_format": 1
         },
         "allmydata.storage.shares": {
@@ -853,8 +856,7 @@
             "allmydata": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.fileutil": 1,
-            "allmydata.util.log": 1
+            "allmydata.util.fileutil": 1
         },
         "allmydata.util.fileutil": {
             "allmydata": 1,
