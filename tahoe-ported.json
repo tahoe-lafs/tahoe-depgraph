@@ -85,6 +85,7 @@
     "allmydata.test.test_helper": "ported",
     "allmydata.test.test_humanreadable": "ported",
     "allmydata.test.test_immutable": "ported",
+    "allmydata.test.test_introducer": "ported",
     "allmydata.test.test_iputil": "ported",
     "allmydata.test.test_log": "ported",
     "allmydata.test.test_monitor": "ported",
