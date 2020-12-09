@@ -224,7 +224,8 @@
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
-            "allmydata.util.assertutil": 1
+            "allmydata.util.assertutil": 1,
+            "allmydata.util.happinessutil": 1
         },
         "allmydata.immutable.filenode": {
             "allmydata": 1,
@@ -238,7 +239,6 @@
             "allmydata.immutable.repairer": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
-            "allmydata.util.consumer": 1,
             "allmydata.util.dictutil": 1,
             "allmydata.util.happinessutil": 1
         },
@@ -250,7 +250,6 @@
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.observer": 1,
             "allmydata.util.pipeline": 1
         },
         "allmydata.immutable.literal": {
@@ -270,7 +269,6 @@
         "allmydata.immutable.repairer": {
             "allmydata": 1,
             "allmydata.immutable": 1,
-            "allmydata.immutable.upload": 1,
             "allmydata.interfaces": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
@@ -280,15 +278,18 @@
         "allmydata.immutable.upload": {
             "allmydata": 1,
             "allmydata.crypto": 1,
+            "allmydata.hashtree": 1,
             "allmydata.immutable": 1,
             "allmydata.immutable.encode": 1,
             "allmydata.immutable.happiness_upload": 1,
+            "allmydata.immutable.layout": 1,
             "allmydata.interfaces": 1,
             "allmydata.storage": 1,
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
             "allmydata.util.deferredutil": 1,
+            "allmydata.util.dictutil": 1,
             "allmydata.util.happinessutil": 1,
             "allmydata.util.hashutil": 1,
             "allmydata.util.rrefutil": 1
@@ -315,8 +316,7 @@
             "allmydata": 1,
             "allmydata.crypto": 1,
             "allmydata.crypto.util": 1,
-            "allmydata.util": 1,
-            "allmydata.util.jsonbytes": 1
+            "allmydata.util": 1
         },
         "allmydata.introducer.interfaces": {},
         "allmydata.introducer.server": {
@@ -332,7 +332,8 @@
         },
         "allmydata.monitor": {
             "allmydata": 1,
-            "allmydata.util": 1
+            "allmydata.util": 1,
+            "allmydata.util.observer": 1
         },
         "allmydata.mutable": {},
         "allmydata.mutable.checker": {
@@ -361,7 +362,8 @@
             "allmydata.mutable.servermap": 1,
             "allmydata.uri": 1,
             "allmydata.util": 1,
-            "allmydata.util.assertutil": 1
+            "allmydata.util.assertutil": 1,
+            "allmydata.util.consumer": 1
         },
         "allmydata.mutable.layout": {
             "allmydata": 1,
@@ -374,6 +376,7 @@
         "allmydata.mutable.publish": {
             "allmydata": 1,
             "allmydata.crypto": 1,
+            "allmydata.crypto.rsa": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -409,7 +412,6 @@
             "allmydata": 1,
             "allmydata.crypto": 1,
             "allmydata.crypto.error": 1,
-            "allmydata.crypto.rsa": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -484,7 +486,6 @@
             "allmydata": 1,
             "allmydata.scripts": 1,
             "allmydata.scripts.default_nodedir": 1,
-            "allmydata.uri": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
             "allmydata.util.encodingutil": 1
@@ -785,7 +786,9 @@
             "allmydata.storage.lease": 1,
             "allmydata.storage.mutable": 1,
             "allmydata.util": 1,
+            "allmydata.util.fileutil": 1,
             "allmydata.util.idlib": 1,
+            "allmydata.util.log": 1,
             "allmydata.util.time_format": 1
         },
         "allmydata.storage.shares": {
@@ -854,8 +857,7 @@
             "allmydata": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.fileutil": 1,
-            "allmydata.util.log": 1
+            "allmydata.util.fileutil": 1
         },
         "allmydata.util.fileutil": {
             "allmydata": 1,
@@ -918,12 +920,14 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
+            "allmydata.util.jsonbytes": 1,
             "allmydata.web": 1,
             "allmydata.web.common": 1,
             "allmydata.web.operations": 1
         },
         "allmydata.web.common": {
             "allmydata": 1,
+            "allmydata.blacklist": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.common": 1,
@@ -934,6 +938,7 @@
         "allmydata.web.directory": {
             "allmydata": 1,
             "allmydata.blacklist": 1,
+            "allmydata.dirnode": 1,
             "allmydata.interfaces": 1,
             "allmydata.monitor": 1,
             "allmydata.uri": 1,
