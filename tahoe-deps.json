@@ -24,13 +24,15 @@
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.servermap": 1,
-            "allmydata.util": 1
+            "allmydata.util": 1,
+            "allmydata.util.base32": 1
         },
         "allmydata.client": {
             "allmydata": 1,
             "allmydata.blacklist": 1,
             "allmydata.control": 1,
             "allmydata.crypto": 1,
+            "allmydata.crypto.ed25519": 1,
             "allmydata.crypto.util": 1,
             "allmydata.frontends": 1,
             "allmydata.frontends.ftpd": 1,
@@ -318,7 +320,8 @@
             "allmydata": 1,
             "allmydata.crypto": 1,
             "allmydata.crypto.util": 1,
-            "allmydata.util": 1
+            "allmydata.util": 1,
+            "allmydata.util.jsonbytes": 1
         },
         "allmydata.introducer.interfaces": {},
         "allmydata.introducer.server": {
@@ -420,7 +423,9 @@
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
             "allmydata.util.deferredutil": 1,
-            "allmydata.util.dictutil": 1
+            "allmydata.util.dictutil": 1,
+            "allmydata.util.hashutil": 1,
+            "allmydata.util.log": 1
         },
         "allmydata.node": {
             "allmydata": 1,
@@ -451,7 +456,6 @@
         "allmydata.scripts.admin": {
             "allmydata": 1,
             "allmydata.crypto": 1,
-            "allmydata.crypto.ed25519": 1,
             "allmydata.scripts": 1,
             "allmydata.scripts.common": 1
         },
@@ -506,9 +510,7 @@
             "allmydata.scripts.default_nodedir": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.encodingutil": 1,
-            "allmydata.util.i2p_provider": 1,
-            "allmydata.util.tor_provider": 1
+            "allmydata.util.encodingutil": 1
         },
         "allmydata.scripts.debug": {
             "allmydata": 1,
@@ -535,16 +537,6 @@
             "allmydata.windows": 1,
             "allmydata.windows.registry": 1
         },
-        "allmydata.scripts.run_common": {
-            "allmydata": 1,
-            "allmydata.scripts": 1,
-            "allmydata.scripts.common": 1,
-            "allmydata.scripts.default_nodedir": 1,
-            "allmydata.util": 1,
-            "allmydata.util.configutil": 1,
-            "allmydata.util.deferredutil": 1,
-            "allmydata.util.encodingutil": 1
-        },
         "allmydata.scripts.runner": {
             "allmydata": 1,
             "allmydata.scripts": 1,
@@ -553,12 +545,8 @@
             "allmydata.scripts.common": 1,
             "allmydata.scripts.create_node": 1,
             "allmydata.scripts.debug": 1,
-            "allmydata.scripts.tahoe_daemonize": 1,
             "allmydata.scripts.tahoe_invite": 1,
-            "allmydata.scripts.tahoe_restart": 1,
             "allmydata.scripts.tahoe_run": 1,
-            "allmydata.scripts.tahoe_start": 1,
-            "allmydata.scripts.tahoe_stop": 1,
             "allmydata.util": 1,
             "allmydata.util.eliotutil": 1,
             "allmydata.util.encodingutil": 1,
@@ -611,9 +599,6 @@
             "allmydata.util.assertutil": 1,
             "allmydata.util.encodingutil": 1,
             "allmydata.util.fileutil": 1
-        },
-        "allmydata.scripts.tahoe_daemonize": {
-            "allmydata.scripts.run_common": 1
         },
         "allmydata.scripts.tahoe_get": {
             "allmydata": 1,
@@ -671,20 +656,14 @@
             "allmydata.util": 1,
             "allmydata.util.encodingutil": 1
         },
-        "allmydata.scripts.tahoe_restart": {
-            "allmydata.scripts.tahoe_start": 1,
-            "allmydata.scripts.tahoe_stop": 1
-        },
         "allmydata.scripts.tahoe_run": {
-            "allmydata.scripts.run_common": 1
-        },
-        "allmydata.scripts.tahoe_start": {
             "allmydata": 1,
             "allmydata.scripts": 1,
             "allmydata.scripts.common": 1,
             "allmydata.scripts.default_nodedir": 1,
-            "allmydata.scripts.run_common": 1,
             "allmydata.util": 1,
+            "allmydata.util.configutil": 1,
+            "allmydata.util.deferredutil": 1,
             "allmydata.util.encodingutil": 1
         },
         "allmydata.scripts.tahoe_status": {
@@ -694,14 +673,6 @@
             "allmydata.scripts.common_http": 1,
             "allmydata.util": 1,
             "allmydata.util.abbreviate": 1,
-            "allmydata.util.encodingutil": 1
-        },
-        "allmydata.scripts.tahoe_stop": {
-            "allmydata": 1,
-            "allmydata.scripts": 1,
-            "allmydata.scripts.common": 1,
-            "allmydata.scripts.run_common": 1,
-            "allmydata.util": 1,
             "allmydata.util.encodingutil": 1
         },
         "allmydata.scripts.tahoe_unlink": {
@@ -723,8 +694,7 @@
         "allmydata.storage": {},
         "allmydata.storage.common": {
             "allmydata": 1,
-            "allmydata.util": 1,
-            "allmydata.util.base32": 1
+            "allmydata.util": 1
         },
         "allmydata.storage.crawler": {
             "allmydata": 1,
@@ -777,7 +747,6 @@
             "allmydata.util": 1,
             "allmydata.util.fileutil": 1,
             "allmydata.util.idlib": 1,
-            "allmydata.util.log": 1,
             "allmydata.util.time_format": 1
         },
         "allmydata.storage.shares": {
@@ -909,7 +878,6 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
-            "allmydata.util.jsonbytes": 1,
             "allmydata.web": 1,
             "allmydata.web.common": 1,
             "allmydata.web.operations": 1
@@ -1156,14 +1124,12 @@
         "allmydata.scripts.create_node": 1,
         "allmydata.scripts.debug": 1,
         "allmydata.scripts.default_nodedir": 1,
-        "allmydata.scripts.run_common": 1,
         "allmydata.scripts.runner": 1,
         "allmydata.scripts.slow_operation": 1,
         "allmydata.scripts.tahoe_add_alias": 1,
         "allmydata.scripts.tahoe_backup": 1,
         "allmydata.scripts.tahoe_check": 1,
         "allmydata.scripts.tahoe_cp": 1,
-        "allmydata.scripts.tahoe_daemonize": 1,
         "allmydata.scripts.tahoe_get": 1,
         "allmydata.scripts.tahoe_invite": 1,
         "allmydata.scripts.tahoe_ls": 1,
@@ -1171,11 +1137,8 @@
         "allmydata.scripts.tahoe_mkdir": 1,
         "allmydata.scripts.tahoe_mv": 1,
         "allmydata.scripts.tahoe_put": 1,
-        "allmydata.scripts.tahoe_restart": 1,
         "allmydata.scripts.tahoe_run": 1,
-        "allmydata.scripts.tahoe_start": 1,
         "allmydata.scripts.tahoe_status": 1,
-        "allmydata.scripts.tahoe_stop": 1,
         "allmydata.scripts.tahoe_unlink": 1,
         "allmydata.scripts.tahoe_webopen": 1,
         "allmydata.stats": 1,
