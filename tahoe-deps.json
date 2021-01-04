@@ -17,6 +17,7 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
+            "allmydata.util.base32": 1,
             "allmydata.util.encodingutil": 1
         },
         "allmydata.check_results": {
@@ -58,18 +59,15 @@
             "allmydata": 1,
             "allmydata.interfaces": 1,
             "allmydata.util": 1,
-            "allmydata.util.assertutil": 1,
-            "allmydata.util.mathutil": 1
+            "allmydata.util.assertutil": 1
         },
         "allmydata.control": {
             "allmydata": 1,
             "allmydata.immutable": 1,
-            "allmydata.immutable.upload": 1,
             "allmydata.interfaces": 1,
             "allmydata.mutable": 1,
             "allmydata.mutable.publish": 1,
-            "allmydata.util": 1,
-            "allmydata.util.fileutil": 1
+            "allmydata.util": 1
         },
         "allmydata.crypto": {},
         "allmydata.crypto.aes": {},
@@ -156,8 +154,8 @@
         "allmydata.hashtree": {
             "allmydata": 1,
             "allmydata.util": 1,
-            "allmydata.util.base32": 1,
-            "allmydata.util.hashutil": 1
+            "allmydata.util.hashutil": 1,
+            "allmydata.util.mathutil": 1
         },
         "allmydata.history": {},
         "allmydata.immutable": {},
@@ -254,7 +252,6 @@
             "allmydata.storage.server": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.observer": 1,
             "allmydata.util.pipeline": 1
         },
         "allmydata.immutable.literal": {
@@ -339,7 +336,8 @@
         },
         "allmydata.monitor": {
             "allmydata": 1,
-            "allmydata.util": 1
+            "allmydata.util": 1,
+            "allmydata.util.observer": 1
         },
         "allmydata.mutable": {},
         "allmydata.mutable.checker": {
@@ -429,10 +427,8 @@
         "allmydata.node": {
             "allmydata": 1,
             "allmydata.util": 1,
-            "allmydata.util.configutil": 1,
             "allmydata.util.encodingutil": 1,
             "allmydata.util.fileutil": 1,
-            "allmydata.util.iputil": 1,
             "allmydata.util.yamlutil": 1
         },
         "allmydata.nodemaker": {
@@ -512,6 +508,7 @@
             "allmydata.util.assertutil": 1,
             "allmydata.util.encodingutil": 1,
             "allmydata.util.i2p_provider": 1,
+            "allmydata.util.iputil": 1,
             "allmydata.util.tor_provider": 1
         },
         "allmydata.scripts.debug": {
@@ -747,9 +744,7 @@
             "allmydata.storage.immutable": 1,
             "allmydata.storage.lease": 1,
             "allmydata.storage.mutable": 1,
-            "allmydata.util": 1,
-            "allmydata.util.idlib": 1,
-            "allmydata.util.time_format": 1
+            "allmydata.util": 1
         },
         "allmydata.storage.shares": {
             "allmydata": 1,
@@ -809,7 +804,6 @@
             "allmydata": 1,
             "allmydata.util": 1,
             "allmydata.util.assertutil": 1,
-            "allmydata.util.log": 1,
             "allmydata.util.pollmixin": 1
         },
         "allmydata.util.dictutil": {},
@@ -900,6 +894,7 @@
         "allmydata.web.directory": {
             "allmydata": 1,
             "allmydata.blacklist": 1,
+            "allmydata.dirnode": 1,
             "allmydata.interfaces": 1,
             "allmydata.monitor": 1,
             "allmydata.uri": 1,
@@ -941,6 +936,8 @@
         "allmydata.web.introweb": {
             "allmydata": 1,
             "allmydata.util": 1,
+            "allmydata.util.idlib": 1,
+            "allmydata.util.jsonbytes": 1,
             "allmydata.web": 1,
             "allmydata.web.common": 1
         },
@@ -992,6 +989,8 @@
         "allmydata.webish": {
             "allmydata": 1,
             "allmydata.util": 1,
+            "allmydata.util.fileutil": 1,
+            "allmydata.util.log": 1,
             "allmydata.web": 1,
             "allmydata.web.introweb": 1,
             "allmydata.web.operations": 1,

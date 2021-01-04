@@ -117,6 +117,7 @@
     "allmydata.test.test_uri": "ported",
     "allmydata.test.test_util": "ported",
     "allmydata.test.web.test_common": "ported",
+    "allmydata.test.web.test_grid": "ported",
     "allmydata.test.web.test_status": "ported",
     "allmydata.test.web.test_util": "ported",
     "allmydata.uri": "ported",
