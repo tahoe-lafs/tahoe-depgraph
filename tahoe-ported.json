@@ -122,6 +122,10 @@
     "allmydata.test.test_util": "ported",
     "allmydata.test.web.test_common": "ported",
     "allmydata.test.web.test_grid": "ported",
+    "allmydata.test.web.test_introducer": "ported",
+    "allmydata.test.web.test_logs": "ported",
+    "allmydata.test.web.test_private": "ported",
+    "allmydata.test.web.test_root": "ported",
     "allmydata.test.web.test_status": "ported",
     "allmydata.test.web.test_util": "ported",
     "allmydata.test.web.test_webish": "ported",
@@ -156,5 +160,6 @@
     "allmydata.util.spans": "ported",
     "allmydata.util.statistics": "ported",
     "allmydata.util.time_format": "ported",
+    "allmydata.web.logs": "ported",
     "allmydata.webish": "ported"
 }
