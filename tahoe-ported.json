@@ -130,6 +130,7 @@
     "allmydata.test.web.test_root": "ported",
     "allmydata.test.web.test_status": "ported",
     "allmydata.test.web.test_util": "ported",
+    "allmydata.test.web.test_web": "ported",
     "allmydata.test.web.test_webish": "ported",
     "allmydata.unknown": "ported",
     "allmydata.uri": "ported",
